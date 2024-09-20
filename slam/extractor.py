@@ -4,6 +4,8 @@ from skimage.measure import ransac
 from skimage.transform import FundamentalMatrixTransform
 import g2o
  
+
+IRt = np.eye(4)
 def add_ones(x):
     # creates homogenious coordinates given the point x
     return np.concatenate([x, np.ones((x.shape[0], 1))], axis=1)

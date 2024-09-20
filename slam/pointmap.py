@@ -1,7 +1,6 @@
 from multiprocessing import Process, Queue
 import numpy as np
  
-import pangolin
 import OpenGL.GL as gl
  
 # Global map // 3D map visualization using pangolin
